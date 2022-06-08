@@ -1,4 +1,4 @@
- Virtual Reality Scientist - Interaction Engineer - Software Designer - Tinkerer
+ Virtual/Augmented Reality Scientist - Interaction Engineer - Software Designer - Tinkerer
 
 ![Image](https://raw.githubusercontent.com/arthurnishimoto/arthurnishimoto.github.io/main/docs/assets/images/EVL_CAVE2_2017524_wide.jpg)
 
@@ -7,7 +7,9 @@ Currently a Research Assistant and PhD Candidate in Computer Science specializin
 
 Since 2011, Arthur Nishimoto has worked with developing virtual reality applications for both scientific research and as a platform for viewing 3D artwork in an interactive environment.
 
-Primarily using Blender and the Unity game engine, Arthur has developed numerous applications for EVL's CAVE2™ hybrid-reality environment, large tiled display walls, as well as the HTC Vive, Oculus Rift, Quest, and Microsoft HoloLens head-mounted displays.
+Primarily using Blender and the Unity game engine, Arthur has developed numerous applications for EVL's CAVE2™ hybrid-reality environment, large tiled display walls, as well as the HTC Vive, Oculus Rift, Quest/Quest 2, and Microsoft HoloLens/HoloLens2 head-mounted displays.
+
+Also familiar with integrating various device APIs (Kinect, Vicon, Optitrack, PQLabs Touch, DirectInput/XInput) and socket networking code in C++, C#, and Java.
 
 ```markdown
 This entire site is a work in progress as I migrate from my existing websites
