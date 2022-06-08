@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+PhD. Candidate Computer Science - Virtual/Augmented Reality Researcher - Interaction Designer - Tinkerer
 
-You can use the [editor on GitHub](https://github.com/arthurnishimoto/arthurnishimoto.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+![](/arthurnishimoto/assets/images/EVL_CAVE2_2017524_wide.jpg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About
+Currently a Research Assistant and PhD Candidate in Computer Science specializing in Virtual Realty, Human-Computer Interaction, and Scientific Visualization at the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago.
 
-### Markdown
+Since 2011, Arthur Nishimoto has worked with developing virtual reality applications for both scientific research and as a platform for viewing 3D artwork in an interactive environment.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arthurnishimoto/arthurnishimoto.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Primarily using Blender and the Unity game engine, Arthur has developed numerous applications for EVL's CAVE2™ hybrid-reality environment, large tiled display walls, as well as the HTC Vive, Oculus Rift, Quest, and Microsoft HoloLens head-mounted displays.
