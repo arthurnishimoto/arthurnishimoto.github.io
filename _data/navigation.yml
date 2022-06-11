@@ -1,0 +1,24 @@
+# Sample site navigation bar links
+
+- title: Home
+  url: /
+- title: Highlights
+  url: /technicalHighlights/
+- title: Research
+  url: /research/
+- title: Art
+  url: /art/
+- title: Coursework
+  url: /coursework/
+# - title: Posts
+#   url: /posts/
+# - title: Categories
+#   url: /categories/
+# - title: Tags
+#   url: /tags/
+# - title: Recipes
+#   url: /recipes/
+# - title: Search
+#   url: /search/
+# - title: External Page
+#   url: https://the-page.com/you-want-to-link-to.html
