@@ -1,0 +1,28 @@
+/* Print Reset */
+html, body { background: #fff; color: #000; }
+body { font: normal 9pt/1.6 georgia, 'Times New Roman', sans-serif; }
+a img { border: none; }
+
+/* Checkout Confirmation */
+#primaryNav, .utilityNav, #siteFoot, #search, .btn, .mainNav, .mainNav *, #footerContent, .utilityNav  {display:none;}
+.logo, .logo * { display:block;}
+
+h2 { margin:0; font-size:14px;}
+
+#order_address_billing, #receipt_delivery_method { width: 250px; float:left; padding-top:20px;}
+#order_address_billing h2, #receipt_delivery_method h2 {float:left; clear:both; width:100%;}
+
+#receipt_delivery_method p { margin:0; padding:0; float:left; clear:both;width:100%;}
+#receipt_delivery_method p.disclaimer { font-size:7pt;}
+
+.cart { width:100%; float:left; clear:both; padding-top:30px;}
+.cart th { border-bottom:solid 1px #ccc; background:#ccc; text-align:left}
+.cart td {border-bottom:solid 1px #eee;}
+.cart tfoot td { border:none; padding-bottom:5px}
+.cart img { display:none; padding:0;}
+.cart .performanceInfo, .cart .performanceInfo span { float:left; width:100%; clear:both;}
+.cart .performanceInfo h4, .cart .performanceInfo h4 a  { margin:0; padding:0; text-decoration:none;}
+
+.bottomDisclaimer { float:left; width:100%; clear:both; font-size:7pt; padding-top:10px;}
+
+#sidebar {width:100%; float:left; clear:both;}
