@@ -2,6 +2,7 @@
 title: Art
 layout: category
 taxonomy: Art
+permalink: /art/
 collection: posts
 entries_layout: grid
 show_excerpts: true

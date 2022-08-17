@@ -2,6 +2,7 @@
 title: Technical Highlights
 layout: category
 taxonomy: Technical Highlight
+permalink: /technicalHighlights/
 collection: posts
 entries_layout: grid
 show_excerpts: true
