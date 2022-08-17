@@ -5,8 +5,8 @@ image:
   path: /images/COE/IMG_20191213_152240.jpg
   thumbnail: /images/COE/coe-thumb.jpg
 category:
-  - research
-  - technicalHighlights
+  - Research
+  - Technical Highlight
 tags:
   - Virtual Reality (CAVE2)
   - Unity

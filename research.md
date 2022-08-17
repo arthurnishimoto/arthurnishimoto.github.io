@@ -1,7 +1,8 @@
 ---
 title: Research
-layout: collection
-collection: research
+layout: category
+taxonomy: Research
+collection: posts
 entries_layout: grid
 show_excerpts: true
 ---

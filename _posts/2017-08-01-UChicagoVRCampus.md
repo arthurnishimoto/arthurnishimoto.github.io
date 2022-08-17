@@ -5,7 +5,7 @@ image:
   path: 
   thumbnail: 
 category:
-  - research
+  - Research
 tags:
   - Virtual Reality (CAVE2)
   - Unity
@@ -14,7 +14,7 @@ tags:
   - Revit
   - 3ds Max
 ---
-(2012 - 2017) - Lead Developer
+(2014 - 2017) - Lead Developer
 
 Virtual Reality (CAVE2), Unity, C#, Blender, Revit, 3ds Max
 

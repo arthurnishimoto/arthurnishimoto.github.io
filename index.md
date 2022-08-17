@@ -1,6 +1,7 @@
 ---
-layout: collection
-collection: technicalHighlights
+layout: category
+taxonomy: Technical Highlight
+collection: posts
 entries_layout: grid
 show_excerpts: true
 ---

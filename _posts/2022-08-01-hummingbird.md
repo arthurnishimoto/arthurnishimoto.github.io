@@ -5,8 +5,8 @@ image:
   path: /images/Hummingbird/PXL_20211204_004039214.MP.jpg
   thumbnail: /images/Hummingbird/hummingbird-thumb.jpg
 category:
-  - technicalHighlights
-  - art
+  - Art
+  - Technical Highlight
 tags:
   - Virtual Reality (HMD)
   - Live Performance
@@ -20,12 +20,13 @@ tags:
   - Multi-disciplinary team
   - Voice Chat
   - VRTK
+  - Audacity
 ---
 ### A Multi-User, Virtual Reality Theatrical Experience Led By A Live Actor
 
 (2019 - present) - Lead Scientist/Developer/Technical Director
 
-Virtual Reality (HMD), Live Performance, Oculus Quest, Oculus Quest2, Multi-user, Networked, Unity, C#, Blender, Multi-disciplinary team, Voice Chat, VRTK
+Virtual Reality (HMD), Live Performance, Oculus Quest, Oculus Quest2, Multi-user, Networked, Unity, C#, Blender, Multi-disciplinary team, Voice Chat, VRTK, Audacity
 
 <!--more--> 
 
@@ -44,7 +45,7 @@ Virtual Reality (HMD), Live Performance, Oculus Quest, Oculus Quest2, Multi-user
 A collaboration between the Goodman Theatre Alice Rapoport Center for Education and Engagement in Chicago and the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago, this work is funded by the University of Illinois System’s Presidential Initiative to Celebrate the Impact of the Arts and the Humanities. The grant proposal  “Transforming Storytelling: Multi-User Virtual Reality Theater for Collaborative Tele-Immersive Exploration,” outlines our goal of exploring how virtual reality technologies and live theater experiences can be brought together as a storytelling medium to encourage theater participation with younger tech-savvy audiences.
 
 
-This work combines the talent of Chicago-based theater director Jo Cattell with Project PI and EVL/Design Professor Daria Tsoupikova, EVL Director of Research  and CS Associate Professor Andrew Johnson, CS/EVL Senior Research Programmer Lance Long, CS/EVL PhD Candidate Arthur Nishimoto, and CS/EVL PhD Student Sai Jyothula.
+This work combines the talent of Chicago-based theater director Jo Cattell with Project PI and EVL/Design Professor Daria Tsoupikova, EVL Director of Research and CS Associate Professor Andrew Johnson, CS/EVL Senior Research Programmer Lance Long, CS/EVL PhD Candidate Arthur Nishimoto, and CS/EVL PhD Student Sai Priya Jyothula.
 
 
 ## Contribution Summary
@@ -86,10 +87,12 @@ My main contributions to Hummingbird can be broken down into the following categ
   * [Statue Scene](#statue-scene)
   * [Server Stage Manager Control Interface](#server-stage-manager-control-interface)
   * [Integration of Hand Tracking](#integration-of-hand-tracking)
-
-
+  * [Observer View and CAVE2 Pre-Show](#observer-view-and-cave2-pre-show)
+  * [Technical Director](#technical-director)
+  * [Isadora and Video Editing for SIGGRAPH](#isadora-and-video-editing-for-siggraph)
+  
 ### Facial Capture of Gerard Actor Using Kinect2
-Actor Dwight Sora portrays Gerard, the CEO of the Hummingbird story's Gerard Corportion who introduces the participants into his world as a giant floating head on a screen and later as a 3D avatar in thge virtual world. During the green screen video shoots used to create the live-action introduction sequences, I simultaniously recorded Dwight's performance using a Kinect for Windows v2 sensor - capturing the color, depth, and IR information using Kinect Studio.
+Actor Dwight Sora portrays Gerard, the CEO of the Hummingbird story's Gerard Corportion who introduces the participants into his world as a giant floating head on a screen and later as a 3D avatar in the virtual world. During the green screen video shoots used to create the live-action introduction sequences, I simultaniously recorded Dwight's performance using a Kinect for Windows v2 sensor - capturing the color, depth, and IR information using Kinect Studio.
 
 
 ![Kinect to Cinema Face Cap for Unity](/images/Hummingbird/GerardFaceCapture01.jpg){: .align-center}
@@ -134,9 +137,9 @@ The final interaction is the teleportion pads which transport the participants i
 
 
 For the Immersive Pavilion presentations at SIGGRAPH 2022, I created a custom 3D model of the SIGGRAPH logo which is embedded into the center table. The logo is described as:
-,,,
+```
 A pair of interlocking partial spheres. The space between the two pieces forms a stylized “S,” alluding to the “S” in the SIGGRAPH. The partial spheres can be represented in either two or three dimensions.
-,,,
+```
 
 
 ![Image of SIGGRAPH table]()
@@ -164,4 +167,20 @@ I took on the challenge of translating the 2D image into a full 3D shape which m
 
 
 ### Integration of Hand Tracking
-  
+
+
+### Observer View and CAVE2 Pre-Show 
+
+
+### Technical Director
+During all three previous performances of Hummingbird (June 2021 workshop, December 2021 New Stages Festival, August 2022 SIGGRAPH Immersive Pavilion), I served in a Technical Director role supervising the setup, preparation, and running of the server, VR HMDs, and auxiliary displays.
+
+
+During the show, it was my primary role to make sure all the VR HMDs are running properly, monitoring the status of the participants, running override and/or show triggers as needed, as well as a supporting actor role in the latter two performances.
+
+
+### Isadora and Video Editing for SIGGRAPH
+
+
+
+

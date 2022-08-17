@@ -5,8 +5,8 @@ image:
   path: 
   thumbnail: /images/cave2Simulator-thumb.jpg
 category:
-  - technicalHighlights
-  - research
+  - Research
+  - Technical Highlight
 tags:
   - Virtual Reality (CAVE2)
   - Unity

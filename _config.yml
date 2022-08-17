@@ -24,6 +24,7 @@ url: # the base hostname & protocol for your site e.g. "https://mmistakes.github
 # logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: false
+date: false
 words_per_minute: 200
 mathjax:
   enable: false
@@ -83,21 +84,6 @@ collections:
   recipes:
     output: true
     permalink: /:collection/:path/
-  technicalHighlights:
-    output: true
-    permalink: /:collection/:path/
-  research:
-    output: true
-    permalink: /:collection/:path/
-  art:
-    output: true
-    permalink: /:collection/:path/
-  personal:
-    output: true
-    permalink: /:collection/:path/
-  coursework:
-    output: true
-    permalink: /:collection/:path/
     
 # Front Matter Defaults
 defaults:
@@ -113,20 +99,6 @@ defaults:
   - scope:
       path: "_recipes"
       type: recipes
-    values:
-      layout: post
-      comments: false
-      share: false
-  - scope:
-      path: "_technicalHighlights"
-      type: technicalHighlights
-    values:
-      layout: post
-      comments: false
-      share: false
-  - scope:
-      path: "_research"
-      type: research
     values:
       layout: post
       comments: false
