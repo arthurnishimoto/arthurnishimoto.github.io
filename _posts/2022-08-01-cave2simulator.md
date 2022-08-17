@@ -10,14 +10,15 @@ category:
 tags:
   - Virtual Reality (CAVE2)
   - Unity
-  - C#
+  - C# (CS)
   - Developed for end-users
+  - Omicron
 ---
 ### API and Tutorial for CAVE2 Development
 
-(2013 - present) - Author
+(2013 - present) - Author/Lead Developer
 
-Virtual Reality (CAVE2), Unity, C#, Developed for end-users
+Virtual Reality (CAVE2), Unity, C#, Developed for end-users, Omicron
 
 <!--more--> 
 

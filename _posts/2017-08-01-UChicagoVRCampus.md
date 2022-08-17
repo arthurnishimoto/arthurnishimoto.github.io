@@ -2,18 +2,20 @@
 title: "University of Chicago Virtual Campus"
 excerpt_separator: "<!--more-->"
 image:
-  path: 
-  thumbnail: 
+  path: /images/uofcVRCampus.jpg
+  thumbnail: /images/uofcVRCampus-thumb.jpg
 category:
   - Research
 tags:
   - Virtual Reality (CAVE2)
   - Unity
-  - C#
+  - C# (CS)
   - Blender
   - Revit
   - 3ds Max
 ---
+### Experimental Architectural Flythough
+
 (2014 - 2017) - Lead Developer
 
 Virtual Reality (CAVE2), Unity, C#, Blender, Revit, 3ds Max

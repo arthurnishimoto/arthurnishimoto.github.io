@@ -9,4 +9,4 @@ pagination:
   enabled: true
 ---
 
-All project entries.
+All project entries. [Sort by Tag](/tags)

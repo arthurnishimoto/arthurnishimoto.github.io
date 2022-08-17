@@ -10,7 +10,7 @@ category:
 tags:
   - Virtual Reality (CAVE2)
   - Unity
-  - C#
+  - C# (CS)
   - Blender
   - SketchUp
   - 3ds Max
@@ -27,7 +27,7 @@ Virtual Reality (CAVE2), Unity, C#, Blender, SketchUp, 3ds Max
 A real-time interactive architectural study of the Computer Design Research and Learning Center (CDRLC) a new Computer Science builing to be completed in 2023.
 
 
-Funded by the College of Engineering, I cleaned up the original architectural SketchUp and AutoCAD 3D models provided by the architects in Blender to create more real-time friendly 3D models that could be imported into Unity for rendering.
+The virtual UIC project started as a College of Engineering funded effort to develop a workflow for importing and enhancing AutoDesk Revit models for real-time interaction in virtual reality. Using the Revit model of the proposed Computing, Design, Research and Learning Center (CDRL) building provided by the architecture firm Lothan Van Hook DeStefano Architecture LLC (LVDA), I imported the models into Blender and modified as necessary to create a real-time interactive walkthrough of the proposed building, stepping through multiple rooms, and integrating text and 2D renderings provided by the architects.
 
 
 ## Contribution Summary
@@ -41,7 +41,7 @@ Funded by the College of Engineering, I cleaned up the original architectural Sk
 ![COE Image 1](/images/COE/IMG_20191213_152332.jpg)
 
 
-Using the pre-rendered images as a guide, I lit, textured, and set waypoints in the 3D model to highlight specific rooms and other features of the building. Over the course of a semester I worked on this application which eventually became a standard demo which was shown to a number of VIP guests including the Dean of the College of Engineeing and the President of the University of Illinois system.
+Using the pre-rendered images as a guide, I lit, textured, and set waypoints in the 3D model to highlight specific rooms and other features of the building. Over the course of a semester I worked on this application which  has been showcased in the CAVE2™ Hybrid-Reality Environment at the Electronic Visualization Laboratory by several VIP guests of the dean of the College of Engineering including the chancellor of UIC, President of the University of Illinois System, and local and state politicians.
 
 
 ![COE Image 2](/images/COE/P1040421.jpg)
@@ -62,6 +62,6 @@ The application also featured the Engineering Innovation Building (EIB) prior to
 </p>
 
 
-I also created a custom building model of the [Science and Engineering Offices (SEO)](https://arthurnishimoto.blogspot.com/2015/10/uic-science-and-engineering-offices.html) to fill out campus details around the new CS building for context. I also modeling the SEO Memorial Grove based on the grounds plan.
+I also created a custom building model of the [Science and Engineering Offices (SEO)](https://arthurnishimoto.blogspot.com/2015/10/uic-science-and-engineering-offices.html) and Engineering Research Facility (ERF) to fill out campus details around the new CS building for context. These models were based on 2D CAD floorplans as well as manual photos and measurements. I also modeling the SEO Memorial Grove based on the grounds plan.
 
 

@@ -15,22 +15,24 @@ tags:
   - Multi-user
   - Networked
   - Unity
-  - C#
+  - C# (CS)
   - Blender
   - Multi-disciplinary team
   - Voice Chat
   - VRTK
   - Audacity
+  - Kinect Tracking
 ---
 ### A Multi-User, Virtual Reality Theatrical Experience Led By A Live Actor
 
 (2019 - present) - Lead Scientist/Developer/Technical Director
 
-Virtual Reality (HMD), Live Performance, Oculus Quest, Oculus Quest2, Multi-user, Networked, Unity, C#, Blender, Multi-disciplinary team, Voice Chat, VRTK, Audacity
+Virtual Reality (HMD), Live Performance, Oculus Quest, Oculus Quest2, Multi-user, Networked, Unity, C#, Blender, Multi-disciplinary team, Voice Chat, VRTK, Audacity, Kinect Tracking
 
 <!--more--> 
 
 ## Overview
+<div id="frameContainer">
 <iframe
     width="640"
     height="480"
@@ -40,6 +42,7 @@ Virtual Reality (HMD), Live Performance, Oculus Quest, Oculus Quest2, Multi-user
     allowfullscreen
 >
 </iframe>
+</div>
 
 
 A collaboration between the Goodman Theatre Alice Rapoport Center for Education and Engagement in Chicago and the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago, this work is funded by the University of Illinois System’s Presidential Initiative to Celebrate the Impact of the Arts and the Humanities. The grant proposal  “Transforming Storytelling: Multi-User Virtual Reality Theater for Collaborative Tele-Immersive Exploration,” outlines our goal of exploring how virtual reality technologies and live theater experiences can be brought together as a storytelling medium to encourage theater participation with younger tech-savvy audiences.
@@ -48,6 +51,9 @@ A collaboration between the Goodman Theatre Alice Rapoport Center for Education 
 This work combines the talent of Chicago-based theater director Jo Cattell with Project PI and EVL/Design Professor Daria Tsoupikova, EVL Director of Research and CS Associate Professor Andrew Johnson, CS/EVL Senior Research Programmer Lance Long, CS/EVL PhD Candidate Arthur Nishimoto, and CS/EVL PhD Student Sai Priya Jyothula.
 
 
+  * [Official Site](https://hummingbirdvr.com)
+  * [Grant Award Press Release](https://www.evl.uic.edu/events/2414)
+  
 ## Contribution Summary
 As one of the lead programmers, it was my responsibility to design the interactions in most of the scenes. I worked closely with playwright and director Jo Cattell to translate story elements and actions into VR interactions.
 
@@ -66,11 +72,9 @@ During the June 2021 experimental show and the December 2021 public show as part
   <img src="/images/Hummingbird/GoodmanTheatreNewStages2021.jpg" width="200" />
   <img src="/images/Hummingbird/SIGGRAPH22-ImmersivePavilion.jpg" width="200" /> 
 </p>
-  * [Official Site](https://hummingbirdvr.com)
-  * [Grant Award Press Release](https://www.evl.uic.edu/events/2414)
   * [Goodman Theatre New Stages 2021 Festival Page](https://www.goodmantheatre.org/newstages) ([Archived](/archived/GoodmanNewStages2021/index.html))
   * [Goodman Theatre Hummingbird Page](https://www.goodmantheatre.org/Hummingbird) ([Archived](/archived/GoodmanHummingbird/index.html))
-  * [SIGGRAPH '22 Immersive Pavilion Paper](https://dl.acm.org/doi/10.1145/3532834.3536213)
+  * Tsoupikova, D., Cattell, J., Johnson, A., Nishimoto, A., Jyothula, S.P., Long, L., Shum, S., 2022. Hummingbird: Collaborative Interactive Adventure Bridging Live Theater and VR. SIGGRAPH 2022 Immersive Pavilion (Vancouver, BC, Canada, Aug. 7-11, 2022). DOI: [https://doi.org/10.1145/3532834.3536213](https://dl.acm.org/doi/10.1145/3532834.3536213)
 
 
 ## Awards
@@ -89,6 +93,7 @@ My main contributions to Hummingbird can be broken down into the following categ
   * [Integration of Hand Tracking](#integration-of-hand-tracking)
   * [Observer View and CAVE2 Pre-Show](#observer-view-and-cave2-pre-show)
   * [Technical Director](#technical-director)
+  * [Integration of HMD Voice Chat](#integration-of-hmd-voice-chat)
   * [Isadora and Video Editing for SIGGRAPH](#isadora-and-video-editing-for-siggraph)
   
 ### Facial Capture of Gerard Actor Using Kinect2
@@ -177,6 +182,9 @@ During all three previous performances of Hummingbird (June 2021 workshop, Decem
 
 
 During the show, it was my primary role to make sure all the VR HMDs are running properly, monitoring the status of the participants, running override and/or show triggers as needed, as well as a supporting actor role in the latter two performances.
+
+
+### Integration of HMD Voice Chat
 
 
 ### Isadora and Video Editing for SIGGRAPH
