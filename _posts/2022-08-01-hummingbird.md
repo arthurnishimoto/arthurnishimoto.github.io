@@ -25,7 +25,7 @@ tags:
 ---
 ### A Multi-User, Virtual Reality Theatrical Experience Led By A Live Actor
 
-(2019 - present) - Lead Scientist/Developer/Technical Director
+(2019 - present) - Technical Director/Lead Developer
 
 Virtual Reality (HMD), Live Performance, Oculus Quest, Oculus Quest2, Multi-user, Networked, Unity, C#, Blender, Multi-disciplinary team, Voice Chat, VRTK, Audacity, Kinect Tracking
 
@@ -38,6 +38,16 @@ figure {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 </style>
 ## Overview
@@ -120,7 +130,7 @@ Actor Dwight Sora portrays Gerard, the CEO of the Hummingbird story's Gerard Cor
 
 <figure>
 	<img src="/images/Hummingbird/GerardFaceCapture01.jpg" />
-	<figcaption>Kinect Studio (left) to Unity Editor (right)</figcaption>
+	<figcaption>Kinect Studio (Left) to Unity Editor (Right)</figcaption>
 </figure>
 
 
@@ -194,31 +204,40 @@ I took on the challenge of translating the 2D image into a full 3D shape which m
 ### Orchard 1 Scene
 
 
-![Orchard Overview]()
+<figure>
+	<img src="/images/Hummingbird/Orchard1-01.jpg" />
+	<figcaption>Orchard 1 Overview</figcaption>
+</figure>
 
 
 Daria Tsoupikova designed the overall layout and asthetic feel of the Orchard 1 scene. My major contributions to this scene is the scripting of the previously mentioned 2D animated face characters which was applied to three different characters: the 'Rock Rock' duo, the Bedrock, and the Flowers.
 
 
-![Water Bucket]()
+<figure>
+	<img src="/images/Hummingbird/WaterBucket.jpg" />
+	<figcaption>Water Particle Effect</figcaption>
+</figure>
 
 
 One of the extra features I added in for the December show was adding interactable water to the water bucket in the scene. Originally just a water texture, I added in the scripting logic to generate sounds and particle effects when an object collides with the water surface. I also refined the effect by including velocity into the calculation so that objects still colliding, but not moving would have a different behaviour than when moving. Also used that value to determine the size of the particles and the audio type and volume played.
 
 
-![Actor Dialog Interface]()
+<figure>
+	<img src="/images/Hummingbird/ActorDialog.jpg" />
+	<figcaption>Actor Dialog Interface</figcaption>
+</figure>
 
 
 This scene also introduces the 'Actor' interface that the lead performer can use to trigger dialog lines to continue the story. This was just a front-end enabled addition to the existing character dialog controller. In some cases, the actor had the option to select different takes of the same dialog line to mix up each performance.
 
 
-![Pedals and Elevator]()
+<figure>
+	<img src="/images/Hummingbird/Orchard1-03.jpg" />
+	<figcaption>Flowers and Pedals</figcaption>
+</figure>
 
 
 The final scripted sequence of the scene finds a hidden elevator revealed in a flying particle system of cherry pedals. The elevator would trigger once all participants were standing on it. More details on that in the cave scene.
-
-
-![Footprints]()
 
 
 A later addition to the scene was footprints that would appear when a participant would step on them. Simple done using a collider trigger and a fading script. Had to make sure the colliders didn't impact the grabbable objects or other physics.
@@ -227,10 +246,26 @@ A later addition to the scene was footprints that would appear when a participan
 ### Cave Scene
 
 
-![Cave overview]()
+<figure>
+	<img src="/images/Hummingbird/Cave-00.jpg" />
+	<figcaption>Cave</figcaption>
+</figure>
 
 
 Unlike most other scenes which was designed by the artist, the cave scene I actually assembled myself using cave assets from the Unity asset store. As this scene has the most complex interactions, this was the original scene built. Many of the original 3D model assets I had modified in Blender to make the holes in the wall for the drawers, the drawers themselves, and the grabbable stalactites. Numerous custom C# scripts and integrations with VRTK was used to create the interactions in this scene.
+
+
+<figure>
+	<div class="row">
+	  <div class="column">
+		<img src="/images/Hummingbird/Cave-01.jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="/images/Hummingbird/Cave-02.jpg" style="width:100%">
+	  </div>
+	</div>	
+	<figcaption>Cave Interaction</figcaption>
+</figure>
 
 
 The quick overview of these interactions are as follows:
@@ -254,7 +289,12 @@ I mostly did cleaning up of specfic technical bugs or adding hooks for the story
 ### Statue Scene
 
 
-![Statue Overview]()
+<figure>
+	<img src="/images/Hummingbird/Statue-00.jpg" />
+	<figcaption>Statue Flight Scene</figcaption>
+</figure>
+
+
 
 
 The statue scene went through a number of design revisions due to the changing scope of the project. The final version of the scene I added the following interactions:
@@ -268,9 +308,6 @@ The statue scene went through a number of design revisions due to the changing s
 
 
 ### Server Stage Manager Control Interface
-![Server UI Overview]()
-
-
 The Server Stage Manager interface is a graphical interface connecting many of the debug and override features originally scripted into many of the story interaction scripts.
 
 
@@ -282,14 +319,32 @@ The main interface is divided up into the following parts:
 
 
 #### Client Status
+<figure>
+	<img src="/images/Hummingbird/ServerUI-00.jpg" />
+	<figcaption>Server UI: Client Status</figcaption>
+</figure>
+
+
 The Client Status display shows all connected Hummingbird clients, whether they're HMDs or Observer clients. Each client has controls for configuring their role (Actor/participant), manually overriding their player ID, avatar, color, or triggering debug/override commands if something goes wrong.
 
 
 #### Gerard Dialog
+<figure>
+	<img src="/images/Hummingbird/ServerUI-01.jpg" />
+	<figcaption>Server UI: Gerard</figcaption>
+</figure>
+
+
 This screen allows the stage manager to trigger extra dialog lines in reaction to participants in the experience. These are mostly short generic reaction lines that were recorded. For example I would trigger some of these lines as a reaction to something a participant said or did. A common one was a dialog line where Gerard would say 'don't touch my fish' if a participant either mentioned the fish or attempted to interact with one.
 
 
 #### Story Manager
+<figure>
+	<img src="/images/Hummingbird/ServerUI-02.jpg" />
+	<figcaption>Server UI: Story Manager</figcaption>
+</figure>
+
+
 The Story Manager screen was used to manually trigger or bypass certain story events in the case something went wrong in how participants were supposted to trigger something, or also used to help move the story forward if participants were taking longer than anticipated.
 
 
@@ -312,7 +367,17 @@ The audio mixer was a simple interface to adjust audio levels between HMD audio,
 The original June workshop used the standard Oculus Quest controllers for interaction. With the exception of the actor, participants solely interacted with the world by using the trigger to grab/pickup objects.
 
 
-![June and December show picture showing hand interaction]()
+<figure>
+	<div class="row">
+	  <div class="column">
+		<img src="/images/Hummingbird/JuneShowControllers.jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="/images/Hummingbird/DecShowHandTracking.jpg" style="width:100%">
+	  </div>
+	</div>	
+	<figcaption>June Controllers (Left) and December Hand Tracking (Right). Photos by Lance Long</figcaption>
+</figure>
 
 
 After the June show, I began exploring use of the recent experimental feature for hand tracking via the Oculus Quest's existing camera tracking system.
@@ -321,7 +386,10 @@ After the June show, I began exploring use of the recent experimental feature fo
 I quickly adapted the hand tracking API for Hummingbird, simplifiying it a bit so that any finger touching the thumb would be considered a grab gesture. This worked perfectly with the simple grab/pickup interaction of Hummingbird.
 
 
-![Tree hands]()
+<figure>
+	<img src="/images/Hummingbird/TreeHand.jpg" />
+	<figcaption>Tree Hand Controlled by Hand Tracking</figcaption>
+</figure>
 
 
 The one place where I used the entire hand tracking data was for the tree hands. Since these hands had a fully articulated 5-finger armature, I mapped the finger joint rotations from the hand tracking example prefab into the tree hand's joints. A new network sync message was also created so that participants could see each other's hand movements.
@@ -334,13 +402,16 @@ As a theaterical production, one of the project goals was to maximize the number
 I essentally used a modified version of the HMD client and attached my orbiting 'third-person camera controller' which I wrote years ago and keep reusing and refining as the need arises. Using the mouse or touch screen on the Continuum main wall, we were able to in real time move the camera to focus on interesting moments in the live performance.
 
 
-![EVL Continuum Main and Side Displays]()
+<figure>
+	<img src="/images/Hummingbird/PXL_20211204_004039214.MP.jpg" />
+	<figcaption>EVL Continuum Main and Side Displays</figcaption>
+</figure>
 
 
 Originally just being displayed on the main wall, eventually we had both walls showing a view into the VR world. As test audiances and rehersals went on, it became obvious that we need to have a mechanism for pre-selected views that could be easily toggled between.
 
 
-For the December 2021 shows, each scene had three or four preset views selectable using the keyboard on an observer client. The views were selected to provide the non-VR audiance members the best view of what was going on in the virtual world.
+For the December 2021 shows, each scene had three or four preset views selectable using the keyboard on an observer client. The views were selected to provide the non-VR audiance members the best view of what was going on in the virtual world. I also designed the image that was projected on the floor.
 
 
 <figure>
@@ -379,6 +450,32 @@ Using all the HMDs as voice clients, they were able to connect to the node.js se
 
 
 Wrote some additional logic between the game server and HMDs to properly associate HMD connection IDs with voice IDs so that the AudioSource for each voice client can be correctly associated to the correct avatar in the VR world.
+
+
+### Planning for SIGGRAPH 2022
+
+
+<figure>
+	<div class="row">
+	  <div class="column">
+		<img src="/images/Hummingbird/SIGGRAPH22-BoothStudy.jpg" style="width:100%">
+	  </div>
+	  <div class="column">
+		<img src="/images/Hummingbird/SIGGRAPH22-Booth.jpg" style="width:100%">
+	  </div>
+	</div>	
+	<figcaption>SIGGRAPH Booth Study (Left) and Actual Booth (Right)</figcaption>
+</figure>
+
+
+While planning for performing Hummingbird at SIGGRAPH 2022's Immersive Pavilion I created a quick mockup of the proposed booth layout in Blender and Unity. While originally created for my own organizational purposes for laying out the space, we eventually used it with the members of the Immersive Pavilion committee for final planning of our booth.
+
+
+The mockup was exported as a WebGL build and was shared with the team which is still available [here](/HummingbirdSIGGRAPH22BoothStudy)
+
+
+
+
 
 
 ### Isadora and Video Editing for SIGGRAPH
