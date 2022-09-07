@@ -1,7 +1,7 @@
 ---
 title: Personal Projects
 layout: category
-taxonomy: PersonalProjects
+taxonomy: Personal Projects
 permalink: /personalProjects/
 collection: posts
 entries_layout: grid
