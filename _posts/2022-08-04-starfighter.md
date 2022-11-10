@@ -6,6 +6,7 @@ image:
   thumbnail: /images/Starfighter/starfighter-thumb.jpg
 category:
   - Personal Projects
+  - Technical Highlight
 tags:
   - Unity
   - C# (CS)

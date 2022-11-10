@@ -17,7 +17,7 @@ figcaption {
  <tr>
     <td width = "70%">
 	
-Currently a Research Assistant and PhD Candidate in Computer Science specializing in Virtual Realty, Human-Computer Interaction, and Scientific Visualization at the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago.
+Currently a Research Assistant and PhD Candidate in Computer Science specializing in Virtual Realty, Human-Computer Interaction, and Scientific Visualization at the Electronic Visualization Laboratory (EVL) at the University of Illinois Chicago.
 <br><br>
 Since 2011, Arthur Nishimoto has worked with developing virtual reality applications for both scientific research and as a platform for viewing 3D artwork in an interactive environment.
 <br><br>
